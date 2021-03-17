@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="665.76721"
+   height="69.380203"
+   viewBox="-38.5 -1867.7 665.76723 69.380204"
+   role="img"
+   focusable="false"
+   aria-labelledby="MathJax-SVG-1-Title"
+   version="1.1"
+   id="svg1187"
+   sodipodi:docname="6f41996938c2e43ca673342fa46f589259186e13.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1191">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>{\displaystyle p_{k}(g)={\frac {\sqrt {2\,}}{\pi }}\sum _{\ell =0}^{k}C_{2k+1,\,2\ell +1}\left(\ell -{\tfrac {1}{2}}\right)!{\left(\ell +g+{\tfrac {1}{2}}\right)}^{-(\ell +1/2)}e^{\ell +g+1/2}}</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview1189"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.051892839"
+     inkscape:cx="401.88911"
+     inkscape:cy="32.093622"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1187" />
+  <title
+     id="MathJax-SVG-1-Title">{\displaystyle p_{k}(g)={\frac {\sqrt {2\,}}{\pi }}\sum _{\ell =0}^{k}C_{2k+1,\,2\ell +1}\left(\ell -{\tfrac {1}{2}}\right)!{\left(\ell +g+{\tfrac {1}{2}}\right)}^{-(\ell +1/2)}e^{\ell +g+1/2}}</title>
+  <defs
+     aria-hidden="true"
+     id="defs1027">
+    <path
+       id="E1-MJMATHI-70"
+       d="m 23,287 q 1,3 2,8 1,5 5,22 4,17 10,31 6,14 15,33 9,19 20,30 11,11 26,22 15,11 33,9 75,0 96,-64 l 10,9 q 62,55 118,55 65,0 102,-47 37,-47 37,-114 0,-108 -76,-199 -76,-91 -172,-92 -22,0 -39,6 -11,5 -23,15 -12,10 -19,17 l -7,8 q -1,-1 -22,-87 -21,-86 -21,-87 0,-6 8,-7 8,-1 37,-3 h 25 q 6,-7 6,-9 0,-2 -3,-18 -3,-12 -6,-15 -3,-3 -13,-4 -2,0 -11,0 -9,0 -34,1 -25,1 -62,1 -70,0 -89,-2 h -8 q -7,7 -7,11 2,27 13,35 h 20 q 34,1 39,12 3,6 61,239 58,233 61,247 1,5 1,14 0,41 -25,41 -22,0 -37,-28 Q 79,349 71,316 63,283 59,280 57,278 43,278 H 29 q -6,6 -6,9 z M 178,102 q 22,-76 74,-76 30,0 58,23 28,23 46,58 18,34 36,108 18,74 19,110 v 6 q 0,74 -61,74 -11,0 -22,-3 -11,-3 -22,-9 -11,-6 -20,-13 -9,-7 -17,-15 -8,-8 -15,-15 -7,-7 -11,-14 -4,-7 -8,-10 l -3,-4 q 0,-1 -3,-14 -3,-13 -11,-44 -8,-31 -14,-52 -26,-106 -26,-110 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-6B"
+       d="m 121,647 q 0,10 4,23 4,13 12,13 1,0 72,5 71,5 73,6 12,0 12,-8 0,-7 -50,-209 -50,-198 -50,-205 19,10 29,19 24,18 69,63 45,45 70,61 40,27 76,27 30,0 47,-19 17,-19 18,-54 0,-25 -7,-42 -7,-17 -19,-25 -12,-8 -21,-11 -9,-3 -18,-3 -20,0 -32,11 -12,11 -12,29 0,25 16,41 16,16 32,21 l 16,3 q -12,12 -24,12 h -4 q -32,-3 -63,-25 -31,-22 -73,-64 -42,-42 -66,-61 2,-1 15,-3 13,-2 24,-6 11,-4 26,-8 15,-4 27,-14 12,-10 22,-18 10,-8 17,-26 7,-18 6,-33 0,-17 -5,-41 -5,-24 -6,-40 0,-40 27,-40 48,0 78,119 2,8 20,8 h 4 q 16,0 16,-9 0,-5 -3,-14 -41,-141 -118,-141 -45,0 -73,26 -28,26 -28,75 0,18 3,31 3,13 3,24 0,22 -14,38 -14,16 -35,23 -21,7 -34,11 -13,4 -18,3 h -2 q -12,-42 -21,-81 -9,-39 -14,-58 -5,-19 -9,-37 -4,-18 -7,-24 -3,-6 -7,-13 -4,-7 -11,-9 -13,-9 -28,-9 -17,0 -26,10 -9,10 -9,17 0,10 37,160 37,150 73,295 l 37,145 q 1,13 -7,16 -8,3 -39,5 h -5 q -10,0 -13,0 -3,0 -7,3 -4,3 -3,7 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-28"
+       d="m 94,250 q 0,69 10,131 10,62 23,107 13,45 37,88 24,43 38,67 14,24 42,52 28,28 33,34 5,6 25,21 h 13 4 q 14,0 14,-9 0,-3 -17,-21 -17,-18 -41,-53 -24,-35 -49,-86 -25,-51 -42,-138 -17,-87 -17,-193 0,-106 17,-192 17,-86 41,-139 24,-53 49,-86 25,-33 42,-53 17,-20 17,-21 0,-9 -15,-9 h -3 -13 l -28,24 Q 180,-141 137,-14 94,113 94,250 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-67"
+       d="M 311,43 Q 296,30 267,15 238,0 206,0 143,0 105,45 67,90 66,160 q 0,105 77,193 77,88 171,89 47,0 87,-48 l 3,4 q 2,3 5,6 3,3 9,8 6,5 13,7 7,2 16,3 14,0 23,-9 9,-9 10,-19 0,-15 -57,-242 -57,-227 -60,-232 -18,-54 -77,-89 -59,-35 -135,-36 -141,0 -141,68 0,26 18,46 18,20 46,20 15,0 28,-9 13,-9 14,-31 0,-10 -2,-19 -2,-9 -7,-14 -5,-5 -8,-10 -3,-5 -7,-8 l -2,-2 h 1 q 10,-3 60,-3 38,0 60,12 23,11 43,33 20,22 28,47 6,19 16,62 13,48 13,56 z m 73,285 -4,11 q -3,11 -5,15 -2,4 -6,14 -4,10 -10,14 -6,4 -13,11 -7,7 -18,9 -11,2 -22,3 -44,0 -85,-53 -30,-39 -50,-119 -20,-80 -20,-116 0,-79 62,-79 56,0 110,70 l 8,10 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-29"
+       d="m 60,749 4,1 q 5,0 10,0 h 12 l 28,-24 q 94,-85 137,-212 43,-127 43,-264 0,-68 -10,-131 -10,-63 -23,-107 -13,-44 -37,-88 -24,-44 -38,-67 -14,-23 -41,-51 -27,-28 -32,-33 -5,-5 -23,-19 -3,-3 -4,-4 H 74 q -8,0 -11,0 -3,0 -5,3 -2,3 -3,9 1,1 11,13 155,161 155,475 0,314 -155,475 -10,12 -11,13 0,8 5,11 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-3D"
+       d="m 56,347 q 0,13 14,20 h 637 q 15,-8 15,-20 0,-11 -14,-19 L 390,327 H 72 q -16,5 -16,20 z m 0,-194 q 0,15 16,20 h 636 q 14,-10 14,-20 0,-13 -15,-20 H 70 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-32"
+       d="m 109,429 q -27,0 -43,18 -16,18 -16,44 0,71 53,123 53,52 132,52 91,0 152,-56 61,-56 62,-145 0,-43 -20,-82 -20,-39 -48,-68 -28,-29 -80,-74 -36,-31 -100,-92 l -59,-56 76,-1 q 157,0 167,5 7,2 24,89 v 3 h 40 v -3 Q 448,183 436,95 424,7 421,3 V 0 H 50 v 19 12 q 0,7 6,15 6,8 30,35 29,32 50,56 9,10 34,37 25,27 34,37 9,10 29,33 20,23 28,34 8,11 23,30 15,19 21,32 6,13 15,29 9,16 13,32 4,16 7,30 3,14 3,33 0,63 -34,109 -34,46 -97,46 -33,0 -58,-17 -25,-17 -35,-33 -10,-16 -10,-19 0,-1 5,-1 18,0 37,-14 19,-14 19,-46 0,-25 -16,-42 -16,-17 -45,-18 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-221A"
+       d="m 95,178 q -6,0 -14,8 -8,8 -9,14 -1,6 31,30 32,24 66,50 34,26 38,29 2,2 5,2 h 1 q 6,0 14,-17 8,-17 54,-117 19,-43 31,-69 l 85,-185 q 1,0 104,213 103,213 206,429 103,216 107,221 6,14 20,14 7,0 12,-6 5,-6 7,-12 v -6 L 620,293 385,-193 q -4,-7 -19,-7 -9,0 -12,3 -2,2 -98,212 L 160,225 144,214 Q 129,202 113,190 97,178 95,178 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-3C0"
+       d="m 132,-11 q -34,0 -34,33 v 11 l 13,28 q 75,158 109,273 l 8,24 h -32 q -38,0 -54,-3 -16,-3 -39,-19 -11,-7 -22,-18 -11,-11 -19,-21 -8,-10 -9,-12 -2,-1 -15,-1 -19,0 -19,10 0,6 19,35 19,29 55,62 36,33 71,38 7,2 225,2 160,0 164,-1 20,-7 20,-28 0,-31 -32,-42 -6,-2 -69,-2 h -64 l -3,-17 q -12,-72 -12,-119 0,-52 9,-93 9,-41 19,-64 10,-23 10,-28 0,-17 -14,-32 -14,-15 -36,-15 -11,0 -18,3 -7,3 -16,24 -9,21 -16,60 -1,9 -1,44 0,49 9,105 9,56 18,92 9,36 10,40 h -98 l -1,-4 q 0,-3 -19,-79 Q 230,199 206,114 182,29 175,17 164,-11 132,-11 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJSZ2-2211"
+       d="m 60,948 q 3,2 605,2 h 602 l 58,-135 q 59,-138 63,-146 h -40 l -7,14 q -21,41 -56,78 -50,48 -111,77 -61,29 -141,43 -80,14 -151,17 -71,3 -183,4 H 574 543 251 l 8,-11 q 463,-633 465,-639 1,-2 0,-6 -3,-3 -264,-302 L 196,-356 q 0,-1 211,-1 52,0 141,0 89,0 128,-1 136,0 220,5 84,5 167,21 83,16 141,49 58,33 103,87 21,26 41,72 h 40 q 0,-1 -7,-21 -7,-20 -25,-65 -18,-45 -31,-84 l -58,-155 -601,-1 q -602,0 -605,2 -6,2 -6,9 0,2 2,6 l 533,610 q 0,1 -33,45 -33,44 -105,144 -72,100 -130,178 L 56,909 55,924 q 0,21 5,24 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2113"
+       d="m 345,104 q 0,0 4,0 4,0 12,-9 8,-9 8,-15 0,-6 -17,-21 -84,-79 -146,-79 -36,0 -60,23 -24,23 -33,50 -9,27 -14,51 l -5,25 Q 94,130 79,116 64,102 48,86 32,70 28,70 q -6,0 -13,9 -7,9 -8,15 0,4 5,9 5,5 46,44 l 33,32 v 6 q 0,1 0,6 0,5 1,9 0,82 36,200 36,118 95,212 59,94 113,93 61,0 61,-69 v -9 q 0,-174 -203,-394 -9,-10 -14,-15 -5,-5 -6,-7 -1,-2 -3,-3 -2,-1 -6,-7 l -2,-15 q -4,-44 -4,-63 0,-106 49,-106 20,0 45,13 25,13 40,26 15,13 42,38 10,10 14,10 z m 15,530 q 0,21 -6,27 -6,6 -18,7 -8,0 -14,-2 -6,-2 -20,-21 -14,-19 -30,-53 -20,-45 -43,-125 -23,-80 -37,-137 l -13,-57 q 0,-1 7,7 7,8 18,20 11,12 17,22 106,131 134,268 5,22 5,44 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-30"
+       d="m 96,585 q 56,81 153,81 48,0 96,-26 48,-26 78,-92 37,-83 37,-228 0,-155 -43,-237 -20,-42 -55,-67 -35,-25 -61,-31 -26,-6 -51,-7 -26,0 -52,6 -26,6 -61,32 -35,26 -55,67 -43,82 -43,237 0,174 57,265 z m 225,12 q -30,32 -71,32 -42,0 -72,-32 -25,-26 -33,-72 -8,-46 -8,-192 0,-158 8,-208 8,-50 36,-79 28,-30 69,-30 40,0 68,30 29,30 36,84 7,54 8,203 0,145 -8,191 -8,46 -33,73 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-43"
+       d="m 50,252 q 0,115 67,221 67,106 169,168 102,62 204,63 90,0 143,-51 9,-10 15,-17 6,-7 8,-10 l 1,-3 q 3,0 27,26 7,6 15,14 8,8 16,16 8,8 10,11 l 15,15 h 6 q 14,0 14,-7 0,-4 -32,-137 -36,-139 -36,-140 -2,-5 -5,-6 -3,-1 -18,-2 h -16 q -6,6 -6,9 0,1 1,7 1,6 2,20 1,14 1,32 0,71 -32,124 -32,53 -109,54 -26,0 -56,-7 -30,-7 -72,-24 -42,-17 -83,-56 -41,-39 -73,-93 -32,-57 -51,-133 -19,-76 -19,-124 0,-114 76,-164 48,-34 118,-34 91,0 162,68 71,68 94,148 4,13 6,15 2,2 16,2 20,0 20,-9 0,-5 -1,-9 Q 618,132 523,55 428,-22 319,-22 206,-22 128,53 50,128 50,252 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2B"
+       d="m 56,237 q 0,0 0,13 0,13 14,20 h 299 v 150 l 1,150 q 10,13 19,13 13,0 20,-15 V 270 h 298 q 15,-8 15,-20 0,-12 -15,-20 H 409 V -68 q -8,-14 -18,-14 h -2 -2 q -12,0 -18,14 V 230 H 70 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-31"
+       d="m 213,578 -13,-5 q -14,-5 -40,-10 -26,-5 -58,-7 H 83 v 46 h 19 q 47,2 87,15 40,13 56,24 16,11 28,22 2,3 12,3 9,0 17,-6 V 361 l 1,-300 q 7,-7 12,-9 5,-2 24,-4 19,-2 62,-2 h 26 V 0 H 416 Q 395,3 257,3 121,3 100,0 H 88 v 46 h 26 q 22,0 38,0 16,0 25,1 9,1 16,3 7,2 8,2 1,0 6,5 5,5 6,4 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2C"
+       d="m 78,35 q 0,0 0,25 0,25 16,43 16,18 43,18 28,0 50,-25 22,-25 23,-88 0,-35 -9,-68 -9,-33 -21,-57 -12,-24 -26,-41 -14,-17 -24,-27 -10,-10 -13,-9 -4,0 -13,9 -9,9 -9,13 0,4 11,16 11,12 25,30 14,18 26,50 12,32 16,73 V 9 L 172,8 Q 170,7 167,6 164,5 161,3 158,1 152,1 146,1 140,0 113,0 96,17 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2212"
+       d="m 84,237 q 0,0 0,13 0,13 14,20 h 581 q 15,-8 15,-20 0,-12 -15,-20 H 98 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJSZ1-28"
+       d="m 152,251 q 0,395 236,599 h 28 q 6,-6 6,-9 0,-4 -19,-25 -19,-21 -46,-63 -27,-42 -55,-104 -28,-62 -47,-167 -19,-105 -19,-232 0,-126 19,-231 19,-105 46,-166 27,-61 55,-104 28,-43 47,-64 19,-21 19,-25 0,-3 -6,-9 h -28 q -29,24 -56,53 -27,29 -61,83 -34,54 -59,116 -25,62 -42,153 -17,91 -18,195 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJSZ1-29"
+       d="M 305,251 Q 305,-145 69,-349 H 56 q -13,0 -17,2 -4,2 -4,9 2,5 25,31 23,26 48,68 25,42 52,103 27,61 44,163 17,102 17,223 0,121 -17,223 -17,102 -44,163 -27,61 -52,104 -25,43 -48,67 -23,24 -25,32 0,11 15,11 h 6 13 Q 197,743 256,566 305,425 305,251 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-21"
+       d="m 78,661 q 0,21 18,38 18,17 42,17 24,0 42,-16 18,-16 19,-39 0,-7 -20,-229 -20,-222 -21,-226 -2,-8 -19,-8 -18,0 -20,8 -1,3 -21,225 Q 78,653 78,661 Z M 79,61 q 0,28 18,44 18,16 44,16 23,-2 40,-17 Q 198,89 198,61 198,31 181,16 164,1 139,1 114,1 97,16 80,31 79,61 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2F"
+       d="m 423,750 q 9,0 15,-6 6,-6 6,-14 0,-5 -173,-482 -173,-477 -179,-488 -7,-10 -17,-10 -7,0 -13,5 -6,5 -6,14 0,10 174,488 174,478 177,483 4,10 16,10 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-65"
+       d="m 39,168 q 0,57 19,104 19,47 49,78 30,31 67,52 37,21 70,31 33,10 63,9 h 3 q 45,0 78,-22 33,-22 33,-65 0,-90 -111,-118 -49,-13 -134,-14 -37,0 -38,-2 0,-2 -6,-35 -6,-33 -7,-58 0,-47 21,-74 21,-27 63,-28 42,-1 93,19 51,20 92,66 9,10 12,10 4,0 13,-9 9,-9 10,-14 1,-5 -9,-16 Q 410,71 390,55 370,39 344,24 318,9 281,-1 244,-11 205,-11 126,-11 83,42 40,95 39,168 Z m 334,185 q -6,52 -68,52 -33,0 -61,-14 -28,-14 -45,-34 -17,-20 -29,-41 -12,-21 -16,-36 -4,-15 -5,-19 0,-1 20,-1 113,0 158,24 45,24 46,69 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+  </defs>
+  <g
+     transform="matrix(0.025,0,0,-0.025,-37.5125,-1826.6675)"
+     aria-hidden="true"
+     id="g1185"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0">
+    <use
+       xlink:href="#E1-MJMATHI-70"
+       x="0"
+       y="0"
+       id="use1029"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(0.707)"
+       xlink:href="#E1-MJMATHI-6B"
+       x="712"
+       y="-213"
+       id="use1031"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-28"
+       x="972"
+       y="0"
+       id="use1033"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMATHI-67"
+       x="1361"
+       y="0"
+       id="use1035"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-29"
+       x="1842"
+       y="0"
+       id="use1037"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-3D"
+       x="2509"
+       y="0"
+       id="use1039"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(3565)"
+       id="g1057">
+      <g
+         transform="translate(120)"
+         id="g1055">
+        <rect
+           width="1620"
+           height="60"
+           x="0"
+           y="220"
+           id="rect1041"
+           style="stroke:none" />
+        <g
+           transform="translate(60,681)"
+           id="g1051">
+          <use
+             xlink:href="#E1-MJMAIN-221A"
+             x="0"
+             y="39"
+             id="use1043"
+             width="100%"
+             height="100%" />
+          <rect
+             width="667"
+             height="60"
+             x="833"
+             y="780"
+             id="rect1045"
+             style="stroke:none" />
+          <g
+             transform="translate(833)"
+             id="g1049">
+            <use
+               xlink:href="#E1-MJMAIN-32"
+               x="0"
+               y="0"
+               id="use1047"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+        <use
+           xlink:href="#E1-MJMATHI-3C0"
+           x="523"
+           y="-686"
+           id="use1053"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       transform="translate(5593)"
+       id="g1071">
+      <use
+         xlink:href="#E1-MJSZ2-2211"
+         x="0"
+         y="0"
+         id="use1059"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(122,-1118)"
+         id="g1067">
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2113"
+           x="0"
+           y="0"
+           id="use1061"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-3D"
+           x="417"
+           y="0"
+           id="use1063"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-30"
+           x="1196"
+           y="0"
+           id="use1065"
+           width="100%"
+           height="100%" />
+      </g>
+      <use
+         transform="scale(0.707)"
+         xlink:href="#E1-MJMATHI-6B"
+         x="760"
+         y="1627"
+         id="use1069"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       transform="translate(7204)"
+       id="g1095">
+      <use
+         xlink:href="#E1-MJMATHI-43"
+         x="0"
+         y="0"
+         id="use1073"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(715,-156)"
+         id="g1093">
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-32"
+           x="0"
+           y="0"
+           id="use1075"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMATHI-6B"
+           x="500"
+           y="0"
+           id="use1077"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2B"
+           x="1022"
+           y="0"
+           id="use1079"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-31"
+           x="1800"
+           y="0"
+           id="use1081"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2C"
+           x="2301"
+           y="0"
+           id="use1083"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-32"
+           x="2815"
+           y="0"
+           id="use1085"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2113"
+           x="3315"
+           y="0"
+           id="use1087"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2B"
+           x="3733"
+           y="0"
+           id="use1089"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-31"
+           x="4511"
+           y="0"
+           id="use1091"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       transform="translate(11730)"
+       id="g1117">
+      <use
+         xlink:href="#E1-MJSZ1-28"
+         id="use1097"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(458)"
+         id="g1113">
+        <use
+           xlink:href="#E1-MJMAIN-2113"
+           x="0"
+           y="0"
+           id="use1099"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#E1-MJMAIN-2212"
+           x="639"
+           y="0"
+           id="use1101"
+           width="100%"
+           height="100%" />
+        <g
+           transform="translate(1640)"
+           id="g1111">
+          <g
+             transform="translate(120)"
+             id="g1109">
+            <rect
+               width="473"
+               height="60"
+               x="0"
+               y="220"
+               id="rect1103"
+               style="stroke:none" />
+            <use
+               transform="scale(0.707)"
+               xlink:href="#E1-MJMAIN-31"
+               x="84"
+               y="629"
+               id="use1105"
+               width="100%"
+               height="100%" />
+            <use
+               transform="scale(0.707)"
+               xlink:href="#E1-MJMAIN-32"
+               x="84"
+               y="-589"
+               id="use1107"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+      </g>
+      <use
+         xlink:href="#E1-MJSZ1-29"
+         x="2812"
+         y="-1"
+         id="use1115"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-21"
+       x="15001"
+       y="0"
+       id="use1119"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(15280)"
+       id="g1163">
+      <use
+         xlink:href="#E1-MJSZ1-28"
+         id="use1121"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(458)"
+         id="g1141">
+        <use
+           xlink:href="#E1-MJMAIN-2113"
+           x="0"
+           y="0"
+           id="use1123"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#E1-MJMAIN-2B"
+           x="639"
+           y="0"
+           id="use1125"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#E1-MJMATHI-67"
+           x="1640"
+           y="0"
+           id="use1127"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#E1-MJMAIN-2B"
+           x="2343"
+           y="0"
+           id="use1129"
+           width="100%"
+           height="100%" />
+        <g
+           transform="translate(3343)"
+           id="g1139">
+          <g
+             transform="translate(120)"
+             id="g1137">
+            <rect
+               width="473"
+               height="60"
+               x="0"
+               y="220"
+               id="rect1131"
+               style="stroke:none" />
+            <use
+               transform="scale(0.707)"
+               xlink:href="#E1-MJMAIN-31"
+               x="84"
+               y="629"
+               id="use1133"
+               width="100%"
+               height="100%" />
+            <use
+               transform="scale(0.707)"
+               xlink:href="#E1-MJMAIN-32"
+               x="84"
+               y="-589"
+               id="use1135"
+               width="100%"
+               height="100%" />
+          </g>
+        </g>
+      </g>
+      <use
+         xlink:href="#E1-MJSZ1-29"
+         x="4516"
+         y="-1"
+         id="use1143"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(4974,643)"
+         id="g1161">
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2212"
+           x="0"
+           y="0"
+           id="use1145"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-28"
+           x="778"
+           y="0"
+           id="use1147"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2113"
+           x="1168"
+           y="0"
+           id="use1149"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2B"
+           x="1585"
+           y="0"
+           id="use1151"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-31"
+           x="2364"
+           y="0"
+           id="use1153"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2F"
+           x="2864"
+           y="0"
+           id="use1155"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-32"
+           x="3365"
+           y="0"
+           id="use1157"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-29"
+           x="3865"
+           y="0"
+           id="use1159"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       transform="translate(23364)"
+       id="g1183">
+      <use
+         xlink:href="#E1-MJMATHI-65"
+         x="0"
+         y="0"
+         id="use1165"
+         width="100%"
+         height="100%" />
+      <g
+         transform="translate(466,412)"
+         id="g1181">
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2113"
+           x="0"
+           y="0"
+           id="use1167"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2B"
+           x="417"
+           y="0"
+           id="use1169"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMATHI-67"
+           x="1196"
+           y="0"
+           id="use1171"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2B"
+           x="1676"
+           y="0"
+           id="use1173"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-31"
+           x="2455"
+           y="0"
+           id="use1175"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-2F"
+           x="2955"
+           y="0"
+           id="use1177"
+           width="100%"
+           height="100%" />
+        <use
+           transform="scale(0.707)"
+           xlink:href="#E1-MJMAIN-32"
+           x="3456"
+           y="0"
+           id="use1179"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+  </g>
+</svg>

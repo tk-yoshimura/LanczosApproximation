@@ -1,0 +1,11 @@
+﻿/.vs
+/dll
+/packages
+/**/bin
+/**/obj
+/**/*.png
+/**/*.jpg
+/**/*.bak
+/**/*.user
+/TestResults
+/**/PublishProfiles

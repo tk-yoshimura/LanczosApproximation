@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="632.72498"
+   height="63.549999"
+   viewBox="0 -1652.5 632.72497 63.549998"
+   role="img"
+   focusable="false"
+   aria-labelledby="MathJax-SVG-1-Title"
+   version="1.1"
+   id="svg1382"
+   sodipodi:docname="63215a71cb9d0058b928f302856859a89045acd2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata1386">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>{\displaystyle A_{g}(z)={\frac {1}{2}}p_{0}(g)+p_{1}(g){\frac {z}{z+1}}+p_{2}(g){\frac {z(z-1)}{(z+1)(z+2)}}+\cdots .}</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview1384"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.22428585"
+     inkscape:cx="-355.99113"
+     inkscape:cy="560.59642"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1382" />
+  <title
+     id="MathJax-SVG-1-Title">{\displaystyle A_{g}(z)={\frac {1}{2}}p_{0}(g)+p_{1}(g){\frac {z}{z+1}}+p_{2}(g){\frac {z(z-1)}{(z+1)(z+2)}}+\cdots .}</title>
+  <defs
+     aria-hidden="true"
+     id="defs1252">
+    <path
+       id="E1-MJMATHI-41"
+       d="m 208,74 q 0,-24 46,-28 18,0 18,-11 0,-1 -2,-13 Q 267,8 264,4 261,0 251,0 249,0 239,0 229,0 205,1 181,2 141,2 70,2 50,0 h -8 q -7,7 -7,11 2,27 13,35 h 14 q 70,3 102,50 6,6 181,305 175,299 178,303 7,12 24,12 h 8 17 q 6,-9 6,-10 l 28,-323 q 28,-323 30,-326 5,-11 65,-11 25,0 25,-10 0,-2 -3,-14 Q 720,7 718,4 716,1 704,0 701,0 690,0 679,0 651,1 623,2 578,2 484,2 455,0 h -12 q -6,6 -6,9 0,3 2,18 4,13 6,16 l 4,3 h 20 q 54,3 64,17 L 521,213 H 283 L 249,155 Q 208,86 208,74 Z m 308,186 q 0,11 -12,156 -12,145 -14,146 L 463,519 Q 447,492 400,412 l -90,-152 103,-1 q 103,0 103,1 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-67"
+       d="M 311,43 Q 296,30 267,15 238,0 206,0 143,0 105,45 67,90 66,160 q 0,105 77,193 77,88 171,89 47,0 87,-48 l 3,4 q 2,3 5,6 3,3 9,8 6,5 13,7 7,2 16,3 14,0 23,-9 9,-9 10,-19 0,-15 -57,-242 -57,-227 -60,-232 -18,-54 -77,-89 -59,-35 -135,-36 -141,0 -141,68 0,26 18,46 18,20 46,20 15,0 28,-9 13,-9 14,-31 0,-10 -2,-19 -2,-9 -7,-14 -5,-5 -8,-10 -3,-5 -7,-8 l -2,-2 h 1 q 10,-3 60,-3 38,0 60,12 23,11 43,33 20,22 28,47 6,19 16,62 13,48 13,56 z m 73,285 -4,11 q -3,11 -5,15 -2,4 -6,14 -4,10 -10,14 -6,4 -13,11 -7,7 -18,9 -11,2 -22,3 -44,0 -85,-53 -30,-39 -50,-119 -20,-80 -20,-116 0,-79 62,-79 56,0 110,70 l 8,10 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-28"
+       d="m 94,250 q 0,69 10,131 10,62 23,107 13,45 37,88 24,43 38,67 14,24 42,52 28,28 33,34 5,6 25,21 h 13 4 q 14,0 14,-9 0,-3 -17,-21 -17,-18 -41,-53 -24,-35 -49,-86 -25,-51 -42,-138 -17,-87 -17,-193 0,-106 17,-192 17,-86 41,-139 24,-53 49,-86 25,-33 42,-53 17,-20 17,-21 0,-9 -15,-9 h -3 -13 l -28,24 Q 180,-141 137,-14 94,113 94,250 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-7A"
+       d="m 347,338 q -10,0 -53,11 -43,11 -63,11 -20,0 -34,-4 -14,-4 -23,-10 -9,-6 -12,-11 -3,-5 -7,-11 l -2,-4 q -3,-3 -15,-3 -21,0 -21,8 0,5 3,14 13,39 43,67 30,28 66,34 12,2 17,2 25,0 45,-17 20,-17 38,-33 18,-16 38,-17 22,0 44,33 22,33 23,33 1,1 15,1 h 13 q 6,-6 6,-8 0,-4 -5,-14 -5,-10 -14,-21 -9,-11 -17,-22 -8,-11 -14,-19 l -7,-9 Q 368,298 275,214 182,130 160,106 l -12,-12 15,-1 q 22,0 64,-11 42,-11 63,-11 38,0 70,19 32,19 42,50 4,9 7,11 3,2 15,2 19,0 19,-10 0,-5 -1,-9 Q 425,72 376,31 327,-10 278,-11 252,-11 232,6 212,23 193,40 174,57 155,57 111,57 76,-3 70,-11 59,-11 H 54 41 q -6,6 -6,9 0,15 58,86 39,45 132,130 93,85 115,108 12,16 7,16 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-29"
+       d="m 60,749 4,1 q 5,0 10,0 h 12 l 28,-24 q 94,-85 137,-212 43,-127 43,-264 0,-68 -10,-131 -10,-63 -23,-107 -13,-44 -37,-88 -24,-44 -38,-67 -14,-23 -41,-51 -27,-28 -32,-33 -5,-5 -23,-19 -3,-3 -4,-4 H 74 q -8,0 -11,0 -3,0 -5,3 -2,3 -3,9 1,1 11,13 155,161 155,475 0,314 -155,475 -10,12 -11,13 0,8 5,11 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-3D"
+       d="m 56,347 q 0,13 14,20 h 637 q 15,-8 15,-20 0,-11 -14,-19 L 390,327 H 72 q -16,5 -16,20 z m 0,-194 q 0,15 16,20 h 636 q 14,-10 14,-20 0,-13 -15,-20 H 70 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-31"
+       d="m 213,578 -13,-5 q -14,-5 -40,-10 -26,-5 -58,-7 H 83 v 46 h 19 q 47,2 87,15 40,13 56,24 16,11 28,22 2,3 12,3 9,0 17,-6 V 361 l 1,-300 q 7,-7 12,-9 5,-2 24,-4 19,-2 62,-2 h 26 V 0 H 416 Q 395,3 257,3 121,3 100,0 H 88 v 46 h 26 q 22,0 38,0 16,0 25,1 9,1 16,3 7,2 8,2 1,0 6,5 5,5 6,4 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-32"
+       d="m 109,429 q -27,0 -43,18 -16,18 -16,44 0,71 53,123 53,52 132,52 91,0 152,-56 61,-56 62,-145 0,-43 -20,-82 -20,-39 -48,-68 -28,-29 -80,-74 -36,-31 -100,-92 l -59,-56 76,-1 q 157,0 167,5 7,2 24,89 v 3 h 40 v -3 Q 448,183 436,95 424,7 421,3 V 0 H 50 v 19 12 q 0,7 6,15 6,8 30,35 29,32 50,56 9,10 34,37 25,27 34,37 9,10 29,33 20,23 28,34 8,11 23,30 15,19 21,32 6,13 15,29 9,16 13,32 4,16 7,30 3,14 3,33 0,63 -34,109 -34,46 -97,46 -33,0 -58,-17 -25,-17 -35,-33 -10,-16 -10,-19 0,-1 5,-1 18,0 37,-14 19,-14 19,-46 0,-25 -16,-42 -16,-17 -45,-18 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMATHI-70"
+       d="m 23,287 q 1,3 2,8 1,5 5,22 4,17 10,31 6,14 15,33 9,19 20,30 11,11 26,22 15,11 33,9 75,0 96,-64 l 10,9 q 62,55 118,55 65,0 102,-47 37,-47 37,-114 0,-108 -76,-199 -76,-91 -172,-92 -22,0 -39,6 -11,5 -23,15 -12,10 -19,17 l -7,8 q -1,-1 -22,-87 -21,-86 -21,-87 0,-6 8,-7 8,-1 37,-3 h 25 q 6,-7 6,-9 0,-2 -3,-18 -3,-12 -6,-15 -3,-3 -13,-4 -2,0 -11,0 -9,0 -34,1 -25,1 -62,1 -70,0 -89,-2 h -8 q -7,7 -7,11 2,27 13,35 h 20 q 34,1 39,12 3,6 61,239 58,233 61,247 1,5 1,14 0,41 -25,41 -22,0 -37,-28 Q 79,349 71,316 63,283 59,280 57,278 43,278 H 29 q -6,6 -6,9 z M 178,102 q 22,-76 74,-76 30,0 58,23 28,23 46,58 18,34 36,108 18,74 19,110 v 6 q 0,74 -61,74 -11,0 -22,-3 -11,-3 -22,-9 -11,-6 -20,-13 -9,-7 -17,-15 -8,-8 -15,-15 -7,-7 -11,-14 -4,-7 -8,-10 l -3,-4 q 0,-1 -3,-14 -3,-13 -11,-44 -8,-31 -14,-52 -26,-106 -26,-110 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-30"
+       d="m 96,585 q 56,81 153,81 48,0 96,-26 48,-26 78,-92 37,-83 37,-228 0,-155 -43,-237 -20,-42 -55,-67 -35,-25 -61,-31 -26,-6 -51,-7 -26,0 -52,6 -26,6 -61,32 -35,26 -55,67 -43,82 -43,237 0,174 57,265 z m 225,12 q -30,32 -71,32 -42,0 -72,-32 -25,-26 -33,-72 -8,-46 -8,-192 0,-158 8,-208 8,-50 36,-79 28,-30 69,-30 40,0 68,30 29,30 36,84 7,54 8,203 0,145 -8,191 -8,46 -33,73 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2B"
+       d="m 56,237 q 0,0 0,13 0,13 14,20 h 299 v 150 l 1,150 q 10,13 19,13 13,0 20,-15 V 270 h 298 q 15,-8 15,-20 0,-12 -15,-20 H 409 V -68 q -8,-14 -18,-14 h -2 -2 q -12,0 -18,14 V 230 H 70 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2212"
+       d="m 84,237 q 0,0 0,13 0,13 14,20 h 581 q 15,-8 15,-20 0,-12 -15,-20 H 98 q -14,7 -14,20 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-22EF"
+       d="m 78,250 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z m 447,0 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z m 447,0 q 0,24 17,42 17,18 43,18 24,0 42,-16 18,-16 19,-43 0,-25 -17,-43 -17,-18 -43,-18 -26,0 -43,17 -17,17 -18,43 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+    <path
+       id="E1-MJMAIN-2E"
+       d="m 78,60 q 0,24 17,42 17,18 43,18 24,0 42,-16 Q 198,88 199,61 199,36 182,18 165,0 139,0 113,0 96,17 79,34 78,60 Z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1" />
+  </defs>
+  <g
+     transform="matrix(0.025,0,0,-0.025,-0.8625,-1614.4875)"
+     aria-hidden="true"
+     id="g1380"
+     style="fill:currentColor;stroke:currentColor;stroke-width:0">
+    <use
+       xlink:href="#E1-MJMATHI-41"
+       x="0"
+       y="0"
+       id="use1254"
+       width="100%"
+       height="100%" />
+    <use
+       transform="scale(0.707)"
+       xlink:href="#E1-MJMATHI-67"
+       x="1061"
+       y="-213"
+       id="use1256"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-28"
+       x="1190"
+       y="0"
+       id="use1258"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMATHI-7A"
+       x="1579"
+       y="0"
+       id="use1260"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-29"
+       x="2048"
+       y="0"
+       id="use1262"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-3D"
+       x="2715"
+       y="0"
+       id="use1264"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(3771)"
+       id="g1274">
+      <g
+         transform="translate(120)"
+         id="g1272">
+        <rect
+           width="620"
+           height="60"
+           x="0"
+           y="220"
+           id="rect1266"
+           style="stroke:none" />
+        <use
+           xlink:href="#E1-MJMAIN-31"
+           x="60"
+           y="676"
+           id="use1268"
+           width="100%"
+           height="100%" />
+        <use
+           xlink:href="#E1-MJMAIN-32"
+           x="60"
+           y="-687"
+           id="use1270"
+           width="100%"
+           height="100%" />
+      </g>
+    </g>
+    <g
+       transform="translate(4632)"
+       id="g1280">
+      <use
+         xlink:href="#E1-MJMATHI-70"
+         x="0"
+         y="0"
+         id="use1276"
+         width="100%"
+         height="100%" />
+      <use
+         transform="scale(0.707)"
+         xlink:href="#E1-MJMAIN-30"
+         x="712"
+         y="-213"
+         id="use1278"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-28"
+       x="5589"
+       y="0"
+       id="use1282"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMATHI-67"
+       x="5979"
+       y="0"
+       id="use1284"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-29"
+       x="6459"
+       y="0"
+       id="use1286"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-2B"
+       x="7071"
+       y="0"
+       id="use1288"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(8072)"
+       id="g1294">
+      <use
+         xlink:href="#E1-MJMATHI-70"
+         x="0"
+         y="0"
+         id="use1290"
+         width="100%"
+         height="100%" />
+      <use
+         transform="scale(0.707)"
+         xlink:href="#E1-MJMAIN-31"
+         x="712"
+         y="-213"
+         id="use1292"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-28"
+       x="9029"
+       y="0"
+       id="use1296"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMATHI-67"
+       x="9419"
+       y="0"
+       id="use1298"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-29"
+       x="9899"
+       y="0"
+       id="use1300"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(10289)"
+       id="g1316">
+      <g
+         transform="translate(120)"
+         id="g1314">
+        <rect
+           width="2311"
+           height="60"
+           x="0"
+           y="220"
+           id="rect1302"
+           style="stroke:none" />
+        <use
+           xlink:href="#E1-MJMATHI-7A"
+           x="921"
+           y="676"
+           id="use1304"
+           width="100%"
+           height="100%" />
+        <g
+           transform="translate(60,-687)"
+           id="g1312">
+          <use
+             xlink:href="#E1-MJMATHI-7A"
+             x="0"
+             y="0"
+             id="use1306"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-2B"
+             x="690"
+             y="0"
+             id="use1308"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-31"
+             x="1691"
+             y="0"
+             id="use1310"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-2B"
+       x="13063"
+       y="0"
+       id="use1318"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(14063)"
+       id="g1324">
+      <use
+         xlink:href="#E1-MJMATHI-70"
+         x="0"
+         y="0"
+         id="use1320"
+         width="100%"
+         height="100%" />
+      <use
+         transform="scale(0.707)"
+         xlink:href="#E1-MJMAIN-32"
+         x="712"
+         y="-213"
+         id="use1322"
+         width="100%"
+         height="100%" />
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-28"
+       x="15021"
+       y="0"
+       id="use1326"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMATHI-67"
+       x="15410"
+       y="0"
+       id="use1328"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-29"
+       x="15891"
+       y="0"
+       id="use1330"
+       width="100%"
+       height="100%" />
+    <g
+       transform="translate(16280)"
+       id="g1372">
+      <g
+         transform="translate(120)"
+         id="g1370">
+        <rect
+           width="6061"
+           height="60"
+           x="0"
+           y="220"
+           id="rect1332"
+           style="stroke:none" />
+        <g
+           transform="translate(1311,770)"
+           id="g1346">
+          <use
+             xlink:href="#E1-MJMATHI-7A"
+             x="0"
+             y="0"
+             id="use1334"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-28"
+             x="468"
+             y="0"
+             id="use1336"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMATHI-7A"
+             x="858"
+             y="0"
+             id="use1338"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-2212"
+             x="1548"
+             y="0"
+             id="use1340"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-31"
+             x="2549"
+             y="0"
+             id="use1342"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-29"
+             x="3049"
+             y="0"
+             id="use1344"
+             width="100%"
+             height="100%" />
+        </g>
+        <g
+           transform="translate(60,-771)"
+           id="g1368">
+          <use
+             xlink:href="#E1-MJMAIN-28"
+             x="0"
+             y="0"
+             id="use1348"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMATHI-7A"
+             x="389"
+             y="0"
+             id="use1350"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-2B"
+             x="1080"
+             y="0"
+             id="use1352"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-31"
+             x="2080"
+             y="0"
+             id="use1354"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-29"
+             x="2581"
+             y="0"
+             id="use1356"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-28"
+             x="2970"
+             y="0"
+             id="use1358"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMATHI-7A"
+             x="3360"
+             y="0"
+             id="use1360"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-2B"
+             x="4051"
+             y="0"
+             id="use1362"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-32"
+             x="5051"
+             y="0"
+             id="use1364"
+             width="100%"
+             height="100%" />
+          <use
+             xlink:href="#E1-MJMAIN-29"
+             x="5552"
+             y="0"
+             id="use1366"
+             width="100%"
+             height="100%" />
+        </g>
+      </g>
+    </g>
+    <use
+       xlink:href="#E1-MJMAIN-2B"
+       x="22804"
+       y="0"
+       id="use1374"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-22EF"
+       x="23805"
+       y="0"
+       id="use1376"
+       width="100%"
+       height="100%" />
+    <use
+       xlink:href="#E1-MJMAIN-2E"
+       x="25144"
+       y="0"
+       id="use1378"
+       width="100%"
+       height="100%" />
+  </g>
+</svg>
