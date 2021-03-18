@@ -65,7 +65,7 @@ def solve_linear(m, x, with_progressbar=False):
     m, x = np.flip(m, axis = 0).astype(np.object), np.flip(x, axis = 0).astype(np.object)
 
     if with_progressbar:
-        progress = progressbar(total = n * n + n, desc='solve', smoothing=0.01, mininterval=1)
+        progress = progressbar(total = (n * n + n) // 2, desc='solve', smoothing=0.01, mininterval=1)
     
     for i in range(n):
         mii = m[i, i]
