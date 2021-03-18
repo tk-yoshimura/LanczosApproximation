@@ -1,6 +1,8 @@
-from tqdm import tqdm as progressbar
 import numpy as np
+import math
 from fractions import Fraction
+
+from tqdm import tqdm as progressbar
 
 def array1d(n):
     arr = np.full((n), 0, dtype=np.object)
@@ -35,7 +37,7 @@ def coef(n):
     for i in range(n):
         r = m[n]
                 
-        c[n-1, i] = 1
+        c[n - 1, i] = 1
 
         for j in reversed(range(0, n - 1)):
             r = m[j + 1] - r * (i + 1)
@@ -46,50 +48,66 @@ def coef(n):
 
     return c, u
 
-def solve_linear(m, x, with_progressbar = False):
+def abs(x):
+    return x if x > 0 else -x
+
+def gcd(a, b):
+    a = abs(a)
+    b = abs(b)
+    return math.gcd(a, b)
+
+def solve_linear(m, x, with_progressbar=False):
     n = x.shape[0]
 
     if m.shape != (n, n) or x.ndim != 1:
         raise ValueError('shape m, n')
 
-    m, x = m.copy().astype(np.object), x.copy().astype(np.object)
+    m, x = np.flip(m, axis = 0).astype(np.object), np.flip(x, axis = 0).astype(np.object)
 
     if with_progressbar:
         progress = progressbar(total = n * n + n, desc='solve', smoothing=0.01, mininterval=1)
     
-    for i in range(n): 
-        inv_mii = Fraction(1, m[i, i])
-        m[i, i] = 1
-        for j in range(i + 1, n):
-            m[i, j] *= inv_mii
-        
-        x[i] *= inv_mii
+    for i in range(n):
+        mii = m[i, i]
         
         for j in range(i + 1, n):
-            mul = m[j, i]
-            m[j, i] = 0
+            g = gcd(mii, m[j, i])
+            mi, mj = m[j, i] // g, mii // g
 
+            m[j, i] = 0            
             for k in range(i + 1, n):
-                m[j, k] -= m[i, k] * mul
+                m[j, k] = m[j, k] * mj - m[i, k] * mi
 
-            x[j] -= x[i] * mul
-
+            x[j] = x[j] * mj - x[i] * mi
+            
             if with_progressbar:
                 progress.update(1)
 
     for i in reversed(range(n)): 
-        for j in reversed(range(i)): 
-            mul = m[j, i]
+        g = gcd(m[i, i], x[i])
+        m[i, i], x[i] = m[i, i] // g, x[i] // g
 
+        mii = m[i, i]
+
+        for j in reversed(range(i)): 
+            g = gcd(mii, m[j, i])
+            mi, mj = m[j, i] // g, mii // g
+
+            for k in range(i):
+                m[j, k] *= mj
+            
             for k in range(i, n):
                 m[j, k] = 0
 
-            x[j] -= x[i] * mul
-
+            x[j] = x[j] * mj - x[i] * mi
+            
         if with_progressbar:
             progress.update(1)
-
+            
     if with_progressbar:
         progress.close()
+
+    for i in reversed(range(n)):
+        x[i] = Fraction(x[i], m[i, i])
 
     return x
