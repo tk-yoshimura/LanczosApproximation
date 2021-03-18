@@ -1,3 +1,4 @@
+from tqdm import tqdm as progressbar
 import numpy as np
 from fractions import Fraction
 
@@ -45,13 +46,16 @@ def coef(n):
 
     return c, u
 
-def solve_linear(m, x):
+def solve_linear(m, x, with_progressbar = False):
     n = x.shape[0]
 
     if m.shape != (n, n) or x.ndim != 1:
         raise ValueError('shape m, n')
 
     m, x = m.copy().astype(np.object), x.copy().astype(np.object)
+
+    if with_progressbar:
+        progress = progressbar(total = n * 2, desc='solve')
     
     for i in range(n): 
         inv_mii = Fraction(1, m[i, i])
@@ -69,6 +73,9 @@ def solve_linear(m, x):
 
             x[j] -= x[i] * mul
 
+        if with_progressbar:
+            progress.update(1)
+
     for i in reversed(range(n)): 
         for j in reversed(range(i)): 
             mul = m[j, i]
@@ -77,5 +84,11 @@ def solve_linear(m, x):
                 m[j, k] = 0
 
             x[j] -= x[i] * mul
+
+        if with_progressbar:
+            progress.update(1)
+
+    if with_progressbar:
+        progress.close()
 
     return x
