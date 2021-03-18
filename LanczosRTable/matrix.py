@@ -55,7 +55,7 @@ def solve_linear(m, x, with_progressbar = False):
     m, x = m.copy().astype(np.object), x.copy().astype(np.object)
 
     if with_progressbar:
-        progress = progressbar(total = n * 2, desc='solve')
+        progress = progressbar(total = n * n + n, desc='solve', smoothing=0.01, mininterval=1)
     
     for i in range(n): 
         inv_mii = Fraction(1, m[i, i])
@@ -68,13 +68,14 @@ def solve_linear(m, x, with_progressbar = False):
         for j in range(i + 1, n):
             mul = m[j, i]
             m[j, i] = 0
+
             for k in range(i + 1, n):
                 m[j, k] -= m[i, k] * mul
 
             x[j] -= x[i] * mul
 
-        if with_progressbar:
-            progress.update(1)
+            if with_progressbar:
+                progress.update(1)
 
     for i in reversed(range(n)): 
         for j in reversed(range(i)): 
