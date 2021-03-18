@@ -8,4 +8,5 @@
 /**/*.bak
 /**/*.user
 /TestResults
+/**/__pycache__
 /**/PublishProfiles
