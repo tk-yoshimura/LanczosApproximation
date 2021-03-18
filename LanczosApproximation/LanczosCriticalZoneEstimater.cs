@@ -29,7 +29,7 @@ namespace LanczosApproximation {
             if (wellknown_points.Count <= 0) {
                 int g2_empi = n * 2;
 
-                return EnumG2(n * 2 - g2_search_neighbors * 8, n * 2 + g2_search_neighbors * 8);
+                return EnumG2(n * 2 - g2_search_neighbors * 8, n * 16 + g2_search_neighbors * 8);
             }
             if (wellknown_points.Count <= 1) {
                 int g2_prev = wellknown_points[0].g2;

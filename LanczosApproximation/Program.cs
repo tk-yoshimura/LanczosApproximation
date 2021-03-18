@@ -9,22 +9,22 @@ namespace LanczosApproximation {
 
             ParamSearch<Expand25<Pow2.N4>>(4 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N4>>(4 * 32 + margin_bits);
-            
+
             ParamSearch<Expand25<Pow2.N8>>(8 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N8>>(8 * 32 + margin_bits);
-            
+
             ParamSearch<Expand25<Pow2.N16>>(16 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N16>>(16 * 32 + margin_bits);
-            
+
             ParamSearch<Expand25<Pow2.N32>>(32 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N32>>(32 * 32 + margin_bits);
-            
+
             ParamSearch<Expand25<Pow2.N64>>(64 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N64>>(64 * 32 + margin_bits);
-            
+
             ParamSearch<Expand25<Pow2.N128>>(128 * 32 + margin_bits);
             ParamSearch<Expand50<Pow2.N128>>(128 * 32 + margin_bits);
-            
+
             ParamSearch<Pow2.N4>(4 * 32 + margin_bits);
             ParamSearch<Pow2.N8>(8 * 32 + margin_bits);
             ParamSearch<Pow2.N16>(16 * 32 + margin_bits);
@@ -47,7 +47,7 @@ namespace LanczosApproximation {
 
                 LanczosCriticalZoneEstimater zone_estimater = new LanczosCriticalZoneEstimater();
 
-                for (int n = n_init; n <= 524; n++) {
+                for (int n = n_init; n <= 525; n++) {
 
                     int max_accuracy = 0, maxacc_g2 = -1;
                     LanczosApprox<N> maxacc_lanczos = null;
