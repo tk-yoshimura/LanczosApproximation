@@ -7,6 +7,7 @@
 /**/*.jpg
 /**/*.bak
 /**/*.user
+/results_disused
 /TestResults
 /**/__pycache__
 /**/PublishProfiles
