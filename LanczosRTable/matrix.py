@@ -72,13 +72,13 @@ def solve_linear(m, x, with_progressbar=False):
         
         for j in range(i + 1, n):
             g = gcd(mii, m[j, i])
-            mi, mj = m[j, i] // g, mii // g
+            ci, cj = m[j, i] // g, mii // g
 
             m[j, i] = 0            
             for k in range(i + 1, n):
-                m[j, k] = m[j, k] * mj - m[i, k] * mi
+                m[j, k] = m[j, k] * cj - m[i, k] * ci
 
-            x[j] = x[j] * mj - x[i] * mi
+            x[j] = x[j] * cj - x[i] * ci
             
             if with_progressbar:
                 progress.update(1)
@@ -91,15 +91,15 @@ def solve_linear(m, x, with_progressbar=False):
 
         for j in reversed(range(i)): 
             g = gcd(mii, m[j, i])
-            mi, mj = m[j, i] // g, mii // g
+            ci, cj = m[j, i] // g, mii // g
 
-            for k in range(i):
-                m[j, k] *= mj
+            for k in range(j, i):
+                m[j, k] *= cj
             
             for k in range(i, n):
                 m[j, k] = 0
 
-            x[j] = x[j] * mj - x[i] * mi
+            x[j] = x[j] * cj - x[i] * ci
             
         if with_progressbar:
             progress.update(1)
