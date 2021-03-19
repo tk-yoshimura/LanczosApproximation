@@ -47,7 +47,7 @@ namespace LanczosApproximation {
 
                 LanczosCriticalZoneEstimater zone_estimater = new LanczosCriticalZoneEstimater();
 
-                for (int n = n_init; n <= 525; n++) {
+                for (int n = n_init; n <= 675; n++) {
 
                     int max_accuracy = 0, maxacc_g2 = -1;
                     LanczosApprox<N> maxacc_lanczos = null;
