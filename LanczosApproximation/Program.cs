@@ -5,14 +5,15 @@ using MultiPrecision;
 namespace LanczosApproximation {    
     class Program {
         static void Main() {
-            const int n = 658, g2 = 1386;
+            const int n = 24, g2 = 51;
+            //const int n = 658, g2 = 1386;
 
-            LanczosApprox<Expand25<Pow2.N128>> lanczos = new LanczosApprox<Expand25<Pow2.N128>>(n, g2);
+            LanczosApprox<Pow2.N16> lanczos = new LanczosApprox<Pow2.N16>(n, g2);
 
             int accuracy = Accuracy(lanczos);
 
-            string filepath = $"../../../../results/lanczos" +
-                            $"_bits{MultiPrecision<Expand25<Pow2.N128>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}_acc{accuracy}.txt";
+            string filepath = $"../../../../results/lanczos_accex" +
+                            $"_bits{MultiPrecision<Pow2.N16>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}_acc{accuracy}.txt";
 
             using StreamWriter summary = new StreamWriter(filepath);
 

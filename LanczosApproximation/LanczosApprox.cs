@@ -29,16 +29,16 @@ namespace LanczosApproximation {
             else {
                 z -= 1;
 
-                MultiPrecision<N> x = Table[0], kahan_c = MultiPrecision<N>.Zero;
+                MultiPrecision<Double<N>> x_ex = MultiPrecisionUtil.Convert<Double<N>, N>(Table[0]);
+                MultiPrecision<Double<N>> z_ex = MultiPrecisionUtil.Convert<Double<N>, N>(z);
 
                 for (int i = 1; i < Length; i++) {
-                    MultiPrecision<N> v = Table[i] / (z + i);
+                    MultiPrecision<Double<N>> w = MultiPrecisionUtil.Convert<Double<N>, N>(Table[i]);
 
-                    MultiPrecision<N> w = v - kahan_c;
-                    MultiPrecision<N> u = x + w;
-                    kahan_c = (u - x) - w;
-                    x = u;
+                    x_ex += w / (z_ex + i);
                 }
+
+                MultiPrecision<N> x = MultiPrecisionUtil.Convert<N, Double<N>>(x_ex);
 
                 MultiPrecision<N> s = z + p5, t = (s + G) / MultiPrecision<N>.E;
 
