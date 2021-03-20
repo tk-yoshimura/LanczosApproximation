@@ -5,22 +5,147 @@ using MultiPrecision;
 namespace LanczosApproximation {    
     class Program {
         static void Main() {
-            const int n = 24, g2 = 51;
-            //const int n = 658, g2 = 1386;
+            {
+                const int n = 24, g2 = 51;
 
-            LanczosApprox<Pow2.N16> lanczos = new LanczosApprox<Pow2.N16>(n, g2);
+                LanczosApprox<Pow2.N16> lanczos_origin = new LanczosApprox<Pow2.N16>(n, g2);
 
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Pow2.N16>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Pow2.N16>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Pow2.N16>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus1<Pow2.N4>>());
+                Write(n, g2, lanczos_origin.Convert<Plus2<Pow2.N4>>());
+            }
+
+            {
+                const int n = 44, g2 = 92;
+
+                LanczosApprox<Pow2.N16> lanczos_origin = new LanczosApprox<Pow2.N16>(n, g2);
+
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Pow2.N16>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Pow2.N16>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Pow2.N16>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus1<Pow2.N8>>());
+                Write(n, g2, lanczos_origin.Convert<Plus2<Pow2.N8>>());
+                Write(n, g2, lanczos_origin.Convert<Plus4<Pow2.N8>>());
+            }
+
+            {
+                const int n = 84, g2 = 178;
+
+                LanczosApprox<Expand25<Pow2.N16>> lanczos_origin = new LanczosApprox<Expand25<Pow2.N16>>(n, g2);
+
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Expand25<Pow2.N16>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Expand25<Pow2.N16>>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Expand25<Pow2.N16>>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus2<Pow2.N16>>());
+                Write(n, g2, lanczos_origin.Convert<Plus4<Pow2.N16>>());
+            }
+
+            {
+                const int n = 166, g2 = 349;
+
+                LanczosApprox<Expand25<Pow2.N32>> lanczos_origin = new LanczosApprox<Expand25<Pow2.N32>>(n, g2);
+
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Expand25<Pow2.N32>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Expand25<Pow2.N32>>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Expand25<Pow2.N32>>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus4<Pow2.N32>>());
+                Write(n, g2, lanczos_origin.Convert<Plus8<Pow2.N32>>());
+            }
+
+            {
+                const int n = 330, g2 = 695;
+
+                LanczosApprox<Expand25<Pow2.N64>> lanczos_origin = new LanczosApprox<Expand25<Pow2.N64>>(n, g2);
+
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Expand25<Pow2.N64>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Expand25<Pow2.N64>>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Expand25<Pow2.N64>>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus8<Pow2.N64>>());
+                Write(n, g2, lanczos_origin.Convert<Plus16<Pow2.N64>>());
+            }
+
+            {
+                const int n = 658, g2 = 1386;
+
+                LanczosApprox<Expand25<Pow2.N128>> lanczos_origin = new LanczosApprox<Expand25<Pow2.N128>>(n, g2);
+
+                string filepath_bin = $"../../../../packed_binary/lanczos" +
+                                $"_bits{MultiPrecision<Expand25<Pow2.N128>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+                using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                    LanczosApprox<Expand25<Pow2.N128>>.Write(lanczos_origin, bin);
+                }
+
+                using (BinaryReader bin = new BinaryReader(File.OpenRead(filepath_bin))) {
+                    lanczos_origin = LanczosApprox<Expand25<Pow2.N128>>.Read(bin);
+                }
+
+                Write(n, g2, lanczos_origin.Convert<Plus16<Pow2.N128>>());
+                Write(n, g2, lanczos_origin.Convert<Plus32<Pow2.N128>>());
+            }
+
+            Console.WriteLine("END");
+            Console.Read();
+        }
+
+        private static void Write<N>(int n, int g2, LanczosApprox<N> lanczos) where N : struct, IConstant {
             int accuracy = Accuracy(lanczos);
 
-            string filepath = $"../../../../results/lanczos_accex" +
-                            $"_bits{MultiPrecision<Pow2.N16>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}_acc{accuracy}.txt";
-
+            string filepath = $"../../../../packed_binary/lanczos" +
+                            $"_bits{MultiPrecision<N>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}_acc{accuracy}.txt";
+            
             using StreamWriter summary = new StreamWriter(filepath);
 
             Summary(lanczos, summary);
 
-            Console.WriteLine("END");
-            Console.Read();
+            string filepath_bin = $"../../../../packed_binary/lanczos" +
+                        $"_bits{MultiPrecision<N>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}.lanczos_state";
+
+            using (BinaryWriter bin = new BinaryWriter(File.OpenWrite(filepath_bin))) {
+                LanczosApprox<N>.Write(lanczos, bin);
+            }
         }
 
         private static void ParamSearch<N>(int censoring_accuracy) where N : struct, IConstant {
@@ -91,7 +216,7 @@ namespace LanczosApproximation {
         private static int Accuracy<N>(LanczosApprox<N> lanczos) where N : struct, IConstant {
             int min_matchbits = MultiPrecision<N>.Bits;
 
-            for (int z2 = 1; z2 <= 100; z2++) {
+            for (int z2 = 1; z2 <= 200; z2++) {
                 MultiPrecision<N> z = MultiPrecision<N>.Ldexp(z2, -1);
 
                 MultiPrecision<N> y_expected = Gamma<N>.Value(z2);
@@ -127,7 +252,7 @@ namespace LanczosApproximation {
             }
 
             sw.WriteLine("approx result");
-            for (int z2 = 1; z2 <= 100; z2++) {
+            for (int z2 = 1; z2 <= 200; z2++) {
                 MultiPrecision<N> z = MultiPrecision<N>.Ldexp(z2, -1);
 
                 MultiPrecision<N> y_expected = Gamma<N>.Value(z2);

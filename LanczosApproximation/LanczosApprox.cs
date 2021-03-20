@@ -1,5 +1,8 @@
 ﻿using MultiPrecision;
+using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace LanczosApproximation {
     class LanczosApprox<N> where N : struct, IConstant {
@@ -18,6 +21,18 @@ namespace LanczosApproximation {
         public LanczosApprox(int n, int g2) {
             table = Lanczos<N>.ATable(n, g2);
             G = MultiPrecision<N>.Ldexp(g2, -1);
+        }
+
+        private LanczosApprox(MultiPrecision<N>[] table, MultiPrecision<N> g) {
+            this.table = (MultiPrecision<N>[])table.Clone();
+            this.G = g;
+        }
+
+        public LanczosApprox<Ndst> Convert<Ndst>() where Ndst : struct, IConstant {
+            return new LanczosApprox<Ndst>(
+                table.Select((v) => MultiPrecisionUtil.Convert<Ndst, N>(v)).ToArray(),
+                MultiPrecisionUtil.Convert<Ndst, N>(G)
+            );
         }
 
         public MultiPrecision<N> Gamma(MultiPrecision<N> z) {
@@ -46,6 +61,31 @@ namespace LanczosApproximation {
 
                 return y;
             }
+        }
+
+        public static void Write(LanczosApprox<N> lanczos, BinaryWriter writer) {
+            writer.Write(lanczos.Length);
+            
+            writer.Write(lanczos.G);
+
+            foreach (MultiPrecision<N> v in lanczos.Table) {
+                writer.Write(v);
+            }
+        }
+
+        public static LanczosApprox<N> Read(BinaryReader reader) {
+            int length = reader.ReadInt32();
+
+            MultiPrecision<N> g = reader.ReadMultiPrecision<N>();
+            
+            MultiPrecision<N>[] table = new MultiPrecision<N>[length];
+            for (int i = 0; i < table.Length; i++) {
+                MultiPrecision<N> v = reader.ReadMultiPrecision<N>();
+
+                table[i] = v;
+            }
+
+            return new LanczosApprox<N>(table, g);
         }
     }
 }
