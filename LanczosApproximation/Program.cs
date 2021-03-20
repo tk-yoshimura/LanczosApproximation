@@ -5,32 +5,18 @@ using MultiPrecision;
 namespace LanczosApproximation {    
     class Program {
         static void Main() {
-            const int margin_bits = 16;
+            const int n = 658, g2 = 1386;
 
-            ParamSearch<Expand25<Pow2.N4>>(4 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N4>>(4 * 32 + margin_bits);
+            LanczosApprox<Expand25<Pow2.N128>> lanczos = new LanczosApprox<Expand25<Pow2.N128>>(n, g2);
 
-            ParamSearch<Expand25<Pow2.N8>>(8 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N8>>(8 * 32 + margin_bits);
+            int accuracy = Accuracy(lanczos);
 
-            ParamSearch<Expand25<Pow2.N16>>(16 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N16>>(16 * 32 + margin_bits);
+            string filepath = $"../../../../results/lanczos" +
+                            $"_bits{MultiPrecision<Expand25<Pow2.N128>>.Bits}_n{n}_g{g2 / 2}{((g2 % 2 == 0) ? "" : ".5")}_acc{accuracy}.txt";
 
-            ParamSearch<Expand25<Pow2.N32>>(32 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N32>>(32 * 32 + margin_bits);
+            using StreamWriter summary = new StreamWriter(filepath);
 
-            ParamSearch<Expand25<Pow2.N64>>(64 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N64>>(64 * 32 + margin_bits);
-
-            ParamSearch<Expand25<Pow2.N128>>(128 * 32 + margin_bits);
-            ParamSearch<Expand50<Pow2.N128>>(128 * 32 + margin_bits);
-
-            ParamSearch<Pow2.N4>(4 * 32 + margin_bits);
-            ParamSearch<Pow2.N8>(8 * 32 + margin_bits);
-            ParamSearch<Pow2.N16>(16 * 32 + margin_bits);
-            ParamSearch<Pow2.N32>(32 * 32 + margin_bits);
-            ParamSearch<Pow2.N64>(64 * 32 + margin_bits);
-            ParamSearch<Pow2.N128>(128 * 32 + margin_bits);
+            Summary(lanczos, summary);
 
             Console.WriteLine("END");
             Console.Read();
