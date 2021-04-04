@@ -1,6 +1,6 @@
 from matrix import coef, solve_linear
 
-for n in range(1100, 1500 + 1):
+for n in range(1092, 1100):
     print(n)
 
     c, u = coef(n)
