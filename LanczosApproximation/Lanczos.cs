@@ -48,12 +48,10 @@ namespace LanczosApproximation {
                 cs[0] += p;
                 cs[k] = 0;
 
-                using (StreamReader sr = new StreamReader($"../../../../rtable/lanczos_{k}.txt")) {
-                    for (int l = 1; l <= k; l++) {
-                        MultiPrecision<Double<N>> d = sr.ReadLine();
+                for (int l = 1; l <= k; l++) {
+                    MultiPrecision<Double<N>> d = RTable<Double<N>>.Value(k, l);
 
-                        cs[l] += p * d;
-                    }
+                    cs[l] += p * d;
                 }
             }
 
