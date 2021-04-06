@@ -232,7 +232,7 @@ namespace LanczosApproximation {
                     if (keepbits == 0) {
                         min_matchbits = 0;
                     }
-                    else if (MultiPrecision<N>.RoundMantissa(y_expected, keepbits) == MultiPrecision<N>.RoundMantissa(y_actual, keepbits)) {
+                    else if (MultiPrecision<N>.RoundMantissa(y_expected, MultiPrecision<N>.Bits - keepbits) == MultiPrecision<N>.RoundMantissa(y_actual, MultiPrecision<N>.Bits - keepbits)) {
                         if (keepbits < min_matchbits) {
                             min_matchbits = keepbits;
                         }
@@ -272,7 +272,7 @@ namespace LanczosApproximation {
                 sw.WriteLine($"    err    : {err}");
 
                 for (int keepbits = MultiPrecision<N>.Bits; keepbits > 0; keepbits--) {
-                    if (MultiPrecision<N>.RoundMantissa(y_expected, keepbits) == MultiPrecision<N>.RoundMantissa(y_actual, keepbits)) {
+                    if (MultiPrecision<N>.RoundMantissa(y_expected, MultiPrecision<N>.Bits - keepbits) == MultiPrecision<N>.RoundMantissa(y_actual, MultiPrecision<N>.Bits - keepbits)) {
                         sw.WriteLine($"    matchbits : {keepbits}");
 
                         break;
