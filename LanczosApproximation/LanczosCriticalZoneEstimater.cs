@@ -8,7 +8,7 @@ namespace LanczosApproximation {
         private readonly List<(int n, int g2)> wellknown_points;
         private readonly int g2_search_neighbors;
         
-        public LanczosCriticalZoneEstimater(int g2_search_neighbors = 4) {
+        public LanczosCriticalZoneEstimater(int g2_search_neighbors = 2) {
             if (g2_search_neighbors < 1) {
                 throw new ArgumentException(nameof(g2_search_neighbors));
             }
@@ -27,13 +27,13 @@ namespace LanczosApproximation {
 
         public IEnumerable<int> Estimate(int n) {
             if (wellknown_points.Count <= 0) {
-                int g2_empi = n * 2;
+                int g2_empi = n * 21 / 10;
 
-                return EnumG2(n * 2 - g2_search_neighbors * 8, n * 16 + g2_search_neighbors * 8);
+                return EnumG2(g2_empi - g2_search_neighbors * 4, g2_empi + g2_search_neighbors * 4);
             }
             if (wellknown_points.Count <= 1) {
                 int g2_prev = wellknown_points[0].g2;
-                return EnumG2(g2_prev - g2_search_neighbors * 4, g2_prev + g2_search_neighbors * 4);
+                return EnumG2(g2_prev - g2_search_neighbors * 2, g2_prev + g2_search_neighbors * 2);
             }
 
             double[] xs = wellknown_points.Select((point) => (double)point.n).ToArray();
