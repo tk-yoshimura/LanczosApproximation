@@ -38,6 +38,10 @@ namespace LanczosApproximation {
         public int Value => checked(default(N).Value + 64);
     }
 
+    struct Plus128<N> : IConstant where N : struct, IConstant {
+        public int Value => checked(default(N).Value + 128);
+    }
+
     struct Double<N> : IConstant where N : struct, IConstant {
         public int Value => checked(default(N).Value * 2);
     }
