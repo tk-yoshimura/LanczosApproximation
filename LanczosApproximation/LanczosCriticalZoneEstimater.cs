@@ -29,11 +29,11 @@ namespace LanczosApproximation {
             if (wellknown_points.Count <= 0) {
                 int g2_empi = n * 21 / 10;
 
-                return EnumG2(g2_empi - g2_search_neighbors * 4, g2_empi + g2_search_neighbors * 4);
+                return EnumG2(g2_empi - g2_search_neighbors * 4, g2_empi + g2_search_neighbors * 8);
             }
             if (wellknown_points.Count <= 1) {
                 int g2_prev = wellknown_points[0].g2;
-                return EnumG2(g2_prev - g2_search_neighbors * 2, g2_prev + g2_search_neighbors * 2);
+                return EnumG2(g2_prev - g2_search_neighbors * 2, g2_prev + g2_search_neighbors * 4);
             }
 
             double[] xs = wellknown_points.Select((point) => (double)point.n).ToArray();
@@ -53,7 +53,7 @@ namespace LanczosApproximation {
 
             int g2_pred = (int)Math.Floor(slope * n + intercept + 0.5);
             
-            return EnumG2(g2_pred - g2_search_neighbors, g2_pred + g2_search_neighbors);
+            return EnumG2(g2_pred - g2_search_neighbors, g2_pred + g2_search_neighbors * 2);
         }
 
         private static IEnumerable<int> EnumG2(int g2_min, int g2_max) {
