@@ -23,9 +23,13 @@ as equal to:
 ![Ag term2](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig10.svg)
 ![p coef2](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig11.svg)
 
-log gamma is the following formula:
+Log gamma is the following formula:
 
 ![loggamma](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig12.svg)
+
+Digamma is the following formula:
+
+![digamma](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig13.svg)
 
 If a fixed g is chosen, the coefficients can be calculated in advance and the sum is recast into the following form:
 
