@@ -27,15 +27,15 @@ Log gamma is the following formula:
 
 ![loggamma](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig12.svg)
 
-Digamma is the following formula:
-
-![digamma](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig13.svg)
-
 If a fixed g is chosen, the coefficients can be calculated in advance and the sum is recast into the following form:
 
 ![Ag term expand](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig3.svg)
 
 Refer to [Ag table](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/results "Ag table").
+
+Digamma is the following formula:
+
+![digamma](https://github.com/tk-yoshimura/LanczosApproximation/blob/main/figures/fig13.svg)
 
 The multiplier of p is calculated from the following formula:
 
