@@ -7,13 +7,13 @@ namespace LanczosApproximation {
 
         private readonly List<(int n, int g2)> wellknown_points;
         private readonly int g2_search_neighbors;
-        
+
         public LanczosCriticalZoneEstimater(int g2_search_neighbors = 2) {
             if (g2_search_neighbors < 1) {
-                throw new ArgumentException(nameof(g2_search_neighbors));
+                throw new ArgumentException(null, nameof(g2_search_neighbors));
             }
 
-            this.wellknown_points = new List<(int, int)>();
+            this.wellknown_points = [];
             this.g2_search_neighbors = g2_search_neighbors;
         }
 
@@ -44,7 +44,7 @@ namespace LanczosApproximation {
 
             for (int i = 0; i < xs.Length; i++) {
                 double dx = xs[i] - x_avg, dy = ys[i] - y_avg;
-                
+
                 sxx += dx * dx;
                 sxy += dx * dy;
             }
@@ -52,7 +52,7 @@ namespace LanczosApproximation {
             double slope = sxy / sxx, intercept = y_avg - slope * x_avg;
 
             int g2_pred = (int)Math.Floor(slope * n + intercept + 0.5);
-            
+
             return EnumG2(g2_pred - g2_search_neighbors, g2_pred + g2_search_neighbors * 2);
         }
 

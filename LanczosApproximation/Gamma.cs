@@ -4,27 +4,26 @@ using System.Collections.Generic;
 
 namespace LanczosApproximation {
     static class Gamma<N> where N : struct, IConstant {
-        private static readonly MultiPrecision<N> p5, sqrt_pi;
+        private static readonly MultiPrecision<N> sqrt_pi;
         private static readonly Dictionary<int, MultiPrecision<N>> table;
 
         static Gamma() {
-            p5 = MultiPrecision<N>.Ldexp(1, -1);
-            sqrt_pi = MultiPrecision<N>.Sqrt(MultiPrecision<N>.PI);
+            sqrt_pi = MultiPrecision<N>.Sqrt(MultiPrecision<N>.Pi);
 
-            table = new Dictionary<int, MultiPrecision<N>>();
-
-            table.Add(1, 1);
-            table.Add(2, 1);
+            table = new Dictionary<int, MultiPrecision<N>> {
+                { 1, 1 },
+                { 2, 1 }
+            };
         }
 
         public static MultiPrecision<N> Value(int z2) {
             if (z2 < 1) {
-                throw new ArgumentException(nameof(z2));
+                throw new ArgumentException(null, nameof(z2));
             }
 
             static MultiPrecision<N> gamma(int i) {
-                if (table.ContainsKey(i)) {
-                    return table[i];
+                if (table.TryGetValue(i, out MultiPrecision<N> value)) {
+                    return value;
                 }
 
                 MultiPrecision<N> y = MultiPrecision<N>.Ldexp(i - 2, -1) * gamma(i - 2);

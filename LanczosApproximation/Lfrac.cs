@@ -1,5 +1,5 @@
-﻿using System;
-using MultiPrecision;
+﻿using MultiPrecision;
+using System;
 using System.Collections.Generic;
 
 namespace LanczosApproximation {
@@ -9,16 +9,16 @@ namespace LanczosApproximation {
 
         static Lfrac() {
             p5 = MultiPrecision<N>.Ldexp(1, -1);
-            sqrt_pi = MultiPrecision<N>.Sqrt(MultiPrecision<N>.PI);
+            sqrt_pi = MultiPrecision<N>.Sqrt(MultiPrecision<N>.Pi);
 
-            table = new Dictionary<int, MultiPrecision<N>>();
-
-            table.Add(0, 1);
+            table = new Dictionary<int, MultiPrecision<N>> {
+                { 0, 1 }
+            };
         }
 
         public static MultiPrecision<N> Value(int l) {
             if (l < 0) {
-                throw new ArgumentException(nameof(l));
+                throw new ArgumentException(null, nameof(l));
             }
 
             static MultiPrecision<N> lfrac(int i) {

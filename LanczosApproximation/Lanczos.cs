@@ -1,5 +1,4 @@
 ﻿using MultiPrecision;
-using System.IO;
 using System.Linq;
 using System.Numerics;
 
@@ -7,7 +6,7 @@ namespace LanczosApproximation {
     static class Lanczos<N> where N : struct, IConstant {
         public static MultiPrecision<Double<N>>[] PTable(int n, int g2) {
             MultiPrecision<Double<N>> g = MultiPrecision<Double<N>>.Ldexp(g2, -1);
-            
+
             MultiPrecision<Double<N>>[] ps = new MultiPrecision<Double<N>>[n + 1];
             MultiPrecision<Double<N>>[] fs = new MultiPrecision<Double<N>>[n + 1];
 
@@ -17,7 +16,7 @@ namespace LanczosApproximation {
 
             for (int k = 0; k <= n; k++) {
                 MultiPrecision<Double<N>> p = 0;
-                
+
                 for (int l = 0; l <= k; l++) {
                     BigInteger chebyshev = Chebyshev.Table(2 * k + 1, 2 * l + 1);
 
@@ -38,8 +37,8 @@ namespace LanczosApproximation {
         public static MultiPrecision<N>[] ATable(int n, int g2) {
             MultiPrecision<Double<N>>[] ps = PTable(n, g2);
             MultiPrecision<Double<N>>[] cs = new MultiPrecision<Double<N>>[n + 1];
-            MultiPrecision<Double<N>> b = 2 / MultiPrecision<Double<N>>.Sqrt(MultiPrecision<Double<N>>.PI);
-            
+            MultiPrecision<Double<N>> b = 2 / MultiPrecision<Double<N>>.Sqrt(MultiPrecision<Double<N>>.Pi);
+
             cs[0] = ps[0] / 2;
 
             for (int k = 1; k <= n; k++) {

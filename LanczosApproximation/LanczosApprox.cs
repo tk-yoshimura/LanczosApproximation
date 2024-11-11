@@ -1,12 +1,11 @@
 ﻿using MultiPrecision;
-using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 
 namespace LanczosApproximation {
     class LanczosApprox<N> where N : struct, IConstant {
-        private readonly static MultiPrecision<N> p5;
+        private static readonly MultiPrecision<N> p5;
         private readonly MultiPrecision<N>[] table;
 
         public MultiPrecision<N> G { private set; get; }
@@ -37,7 +36,7 @@ namespace LanczosApproximation {
 
         public MultiPrecision<N> Gamma(MultiPrecision<N> z) {
             if (z < p5) {
-                MultiPrecision<N> y = MultiPrecision<N>.PI / (MultiPrecision<N>.SinPI(z) * Gamma(1 - z));
+                MultiPrecision<N> y = MultiPrecision<N>.Pi / (MultiPrecision<N>.SinPi(z) * Gamma(1 - z));
 
                 return y;
             }
@@ -65,7 +64,7 @@ namespace LanczosApproximation {
 
         public static void Write(LanczosApprox<N> lanczos, BinaryWriter writer) {
             writer.Write(lanczos.Length);
-            
+
             writer.Write(lanczos.G);
 
             foreach (MultiPrecision<N> v in lanczos.Table) {
@@ -77,7 +76,7 @@ namespace LanczosApproximation {
             int length = reader.ReadInt32();
 
             MultiPrecision<N> g = reader.ReadMultiPrecision<N>();
-            
+
             MultiPrecision<N>[] table = new MultiPrecision<N>[length];
             for (int i = 0; i < table.Length; i++) {
                 MultiPrecision<N> v = reader.ReadMultiPrecision<N>();

@@ -5,13 +5,13 @@ using System.IO;
 
 namespace LanczosApproximation {
     public static class RTable<N> where N : struct, IConstant {
-        static readonly Dictionary<(int k, int l), MultiPrecision<N>> table = new();
+        static readonly Dictionary<(int k, int l), MultiPrecision<N>> table = [];
 
         public static MultiPrecision<N> Value(int k, int l) {
             if (k < l || k < 1 || l < 1) {
                 throw new ArgumentOutOfRangeException($"{nameof(k)},{nameof(l)}");
             }
-            
+
             if (table.ContainsKey((k, l))) {
                 return table[(k, l)];
             }
